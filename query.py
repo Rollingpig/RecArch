@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
-from model_call import ask_gpt_text, ask_gpt_v, get_text_embeddings
+from model_call import ask_gpt_text, ask_gpt_v_text, get_text_embeddings
 
 
 def query_from_database(query, database_folder_path):
@@ -93,6 +93,25 @@ def query_from_database(query, database_folder_path):
     return similarity_dict
 
 
+def query_handler(query, database_folder_path):
+    # check if the query is a file path to an image
+    if Path(query).exists():
+        print("Query recognized as an image file path")
+
+        # get the text description of the image
+        query_str = ask_gpt_v_text(query, "Describe in detail about this architecture design, specifying the form, function, material and context.")
+        
+        # if the response is an empty dictionary, raise an error
+        if not query_str:
+            raise ValueError("We cannot find the file")
+    else:
+        query_str = query
+
+    # query the database
+    similarity_dict = query_from_database(query_str, database_folder_path)
+    return similarity_dict
+
+
 def main():
     # parse the arguments
     parser = argparse.ArgumentParser()
@@ -102,9 +121,7 @@ def main():
 
     # query the database
     query_string = args.query
-    # replace the underscore with space
-    query_string = query_string.replace("_", " ")
-    similarity_dict = query_from_database(query_string, args.database)
+    similarity_dict = query_handler(query_string, args.database)
 
     # print the most similar projects
     for project_name in similarity_dict:

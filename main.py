@@ -1,6 +1,9 @@
 import pygame
 import sys
 import webbrowser
+import tkinter as tk
+from tkinter import filedialog
+
 from query import query_from_database
 
 pygame.init()
@@ -14,6 +17,7 @@ BASE_PADDING = 50
 FONT_SIZE = 32
 SMALL_FONT_SIZE = 24
 BUTTON_WIDTH = 80
+BUTTON_GAP = 20
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -29,7 +33,7 @@ small_font = pygame.font.Font(None, SMALL_FONT_SIZE)
 clock = pygame.time.Clock()
 
 # Input box
-input_box_width = (WINDOW_WIDTH - BASE_PADDING * 2) - BUTTON_WIDTH
+input_box_width = (WINDOW_WIDTH - BASE_PADDING * 2) - BUTTON_WIDTH*2 - BUTTON_GAP
 input_box = pygame.Rect(BASE_PADDING, BASE_PADDING, input_box_width, FONT_SIZE)
 color_inactive = GRAY
 color_active = BLACK
@@ -37,10 +41,20 @@ color = color_inactive
 active = False
 text = ''
 
-# Button
+# Find Button
 find_button = pygame.Rect(BASE_PADDING + input_box_width, BASE_PADDING, BUTTON_WIDTH, FONT_SIZE)
 button_text = font.render('Find', True, WHITE)
 button_color = BLACK
+
+# File Button
+file_button = pygame.Rect(BASE_PADDING + input_box_width + BUTTON_WIDTH + BUTTON_GAP, BASE_PADDING, BUTTON_WIDTH, FONT_SIZE)
+file_button_text = font.render('Open', True, WHITE)
+file_button_color = BLACK
+
+# Function to open file dialog and return selected file path
+def open_file_dialog():
+    file_path = filedialog.askopenfilename()  # Open the file dialog
+    return file_path
 
 # Function to be called
 def find(input_text, database_folder_path="test_database"):
@@ -134,6 +148,12 @@ def main(database_folder_path):
                     result, img_paths, urls = find(text, database_folder_path)
                     result_surf = small_font.render(result, True, BLACK)
                     image_surfaces = load_and_scale_images(img_paths)
+
+                # If the user clicked on the file button
+                if file_button.collidepoint(event.pos):
+                    file_path = open_file_dialog()
+                    if file_path:
+                        text = file_path
                 
             if event.type == pygame.KEYDOWN:
                 if active:
@@ -158,6 +178,9 @@ def main(database_folder_path):
         # Draw button
         pygame.draw.rect(screen, button_color, find_button)
         screen.blit(button_text, (find_button.x + 20, find_button.y + 5))
+        # Draw file button
+        pygame.draw.rect(screen, file_button_color, file_button)
+        screen.blit(file_button_text, (file_button.x + 10, file_button.y + 5))
         
         # Display images
         if len(image_surfaces) > 0:

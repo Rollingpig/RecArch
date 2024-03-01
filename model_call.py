@@ -102,6 +102,25 @@ def ask_gpt_v(image_path: str, prompt: str) -> dict:
     return json_dict
 
 
+@retry(wait_fixed=1000, stop_max_attempt_number=3)
+def ask_gpt_v_text(image_path: str, prompt: str) -> str:
+
+    # check if the image exists
+    if not os.path.exists(image_path):
+        return {}
+
+    response = call_gpt_v(image_path, prompt)
+    
+    # if the response is successful
+    if response.get("id"):
+        text_str =  response["choices"][0]['message']['content']
+    else:
+        # raise an error if the response is not successful
+        raise ValueError(response)
+    
+    return text_str
+
+
 def chat_with_gpt(messages: Union[ChatSequence, list[dict]]) -> str:
     # if messages is a ChatSequence, convert it to a list of dicts
     if isinstance(messages, ChatSequence):
