@@ -21,7 +21,17 @@ Based on the image, fill the following JSON questionaire about architecture desi
 """
 prompt_exterior = prompt_birdview
 prompt_interior = prompt_birdview
-prompt_floorplan = prompt_birdview
+prompt_floorplan = """
+Based on the image, fill the following JSON questionaire about architecture design:
+```json
+{
+    "highlights": "What is the highlight of this design?",
+    "shape": "What form does it use? ",
+    "spatial design": "What is the highlight of its shape and form? ",
+    "keywords": "Summarize some keywords, split by comma",
+}
+```
+"""
 prompt_other = prompt_birdview
 
 prompt_description = """

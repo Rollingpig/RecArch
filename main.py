@@ -61,16 +61,18 @@ def find(input_text, database_folder_path="test_database"):
     similarity_dict = query_from_database(input_text, database_folder_path)
 
     result_text = f"Result for '{input_text}':\n"
+    image_paths = []
+    url_paths = []
 
     # print the most similar projects
     for project_name in similarity_dict:
-        result_text += f"{project_name}: {similarity_dict[project_name]}\n"
-
-    image_paths = []
-    url_paths = []
-    for project_name in similarity_dict:
-        image_paths.append(similarity_dict[project_name]["image_path"])
-        url_paths.append(similarity_dict[project_name]["web_url"])
+        project_dict = similarity_dict[project_name]
+        result_text += f"{project_name}: {project_dict}\n"
+        image_paths.append(project_dict["image_path"])
+        if project_dict["web_url"] and project_dict["web_url"] != "":
+            url_paths.append(project_dict["web_url"])
+        else:
+            url_paths.append("")
 
     return result_text, image_paths, url_paths
 
@@ -86,7 +88,9 @@ def wrap_text(text, font, max_width):
 
 
 def open_webpage(urls, index):
-    # webbrowser.open(urls[index])
+    print(f"index: {index}")
+    if urls[index] != "":
+        webbrowser.open(urls[index])
     pass
 
 # Function to load and scale images

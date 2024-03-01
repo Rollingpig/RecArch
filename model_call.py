@@ -79,7 +79,7 @@ def extract_json(answer_str: str) -> dict:
         print(f"Error: \n{json_str}")
         return {}
 
-@retry(wait_fixed=1000, stop_max_attempt_number=3)
+@retry(wait_fixed=1000, stop_max_attempt_number=5)
 def ask_gpt_v(image_path: str, prompt: str) -> dict:
     """
     Asks the OpenAI GPT-4 Vision API to generate a JSON response to the prompt and image.
