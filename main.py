@@ -4,7 +4,7 @@ import webbrowser
 import tkinter as tk
 from tkinter import filedialog
 
-from query import query_from_database
+from query import query_handler
 
 pygame.init()
 
@@ -58,7 +58,7 @@ def open_file_dialog():
 
 # Function to be called
 def find(input_text, database_folder_path="test_database"):
-    similarity_dict = query_from_database(input_text, database_folder_path)
+    similarity_dict = query_handler(input_text, database_folder_path)
 
     result_text = f"Result for '{input_text}':\n"
     image_paths = []

@@ -105,6 +105,7 @@ def query_handler(query, database_folder_path):
         if not query_str:
             raise ValueError("We cannot find the file")
     else:
+        print("Query recognized as a text")
         query_str = query
 
     # query the database
