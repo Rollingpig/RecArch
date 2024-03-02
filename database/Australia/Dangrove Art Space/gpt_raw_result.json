@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The integration of art storage with various functional spaces such as curatorial, conservation, research, library, workshop, administration, exhibition, and performance areas, while creating a hierarchical experience through special spaces and the use of light.",
+        "shape": "The form is not explicitly mentioned, but it suggests a complex and multifunctional space over two levels.",
+        "spatial design": "The choreography of the journey through the building to enhance viewing opportunities and back of house working areas.",
+        "material design": "Though specifics on materials are not mentioned, the use of light seems to be a key material component that contributes to the spatial experience.",
+        "keywords": "integration, multifunctional, art storage, curatorial, conservation, research, library, workshop, administration, exhibition, performance spaces, experience, choreographed journey, light, two levels"
+    },
+    "facade": {
+        "highlights": "The highlight of this design is the integration of a clean, minimalist outdoor space with a large, striking sculpture that acts as a focal point.",
+        "shape": "The form used is simple and geometric, with the building showcasing a sloping roof and rectangular forms.",
+        "spatial design": "The highlight of its shape and form is the uncluttered space that creates a sense of openness, further accentuated by the flat, linear surfaces of both the ground and walls.",
+        "material design": "The design features a cohesive blend of smooth concrete for the walls, floors, and benches, providing a uniform backdrop that makes the textured bronze sculpture stand out.",
+        "keywords": "Minimalist, Sculptural Focal Point, Geometric, Open Space, Concrete, Cohesive Material Palette"
+    },
+    "floorplan": {
+        "highlights": "The highlight of this design seems to be the clear and functional layout with distinct sections for various purposes.",
+        "shape": "The form is a combination of rectangular and irregular shapes pieced together to create an overall complex structure.",
+        "spatial design": "The highlight of its shape and form is the intelligent use of space with a balance between enclosed rooms and open areas, maintaining a flow throughout the design.",
+        "material design": "As this is a black-and-white floor plan, material design details are not visible. However, the layout suggests a prioritization of function and space utilization which likely extends to materials selection for efficiency and suitability.",
+        "keywords": "Functional layout, rectangular structure, irregular shape, space utilization, intricate design, flow management, architectural plan"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the striking contrast between the raw, exposed concrete structure and the sleek, dark panels that guide movement around the space.",
+        "shape": "The form is dominantly geometric, featuring slanting concrete beams and rectangular panels.",
+        "spatial design": "The highlight of its shape and form are the sloping concrete beams that create dynamic lines and impose a sense of rhythm to the space.",
+        "material design": "The highlight in its spatial and material design is the juxtaposition of the smooth surfaces of the steel or aluminum panels against the rough texture of the concrete.",
+        "keywords": "Contrast, Geometric, Dynamic, Rhythm, Juxtaposition, Concrete, Texture, Metal panels"
+    },
+    "interior2": {
+        "highlights": "Symmetrical design with a clear focus on minimalism and the interplay of light and shadow created by the structure overhead.",
+        "shape": "Rectilinear and geometric with an orthogonal layout and strong emphasis on horizontal and vertical lines.",
+        "spatial design": "The design features spaciousness and openness, with orthogonal geometry creating a harmonious and well-proportioned internal space.",
+        "material design": "The use of raw, industrial materials like exposed concrete and metal contrasts with the smooth, polished floors, creating an interplay of textures and finishes.",
+        "keywords": "Minimalism, Symmetry, Geometric, Spacious, Light and Shadow, Concrete, Metal, Textural Contrast, Industrial"
+    }
+}

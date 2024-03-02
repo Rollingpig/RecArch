@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The highlight of this design is the creation of a world-class art and cultural centre in the exceptional location of the Steenberg area, set against a dramatic mountain and vineyard landscape.",
+        "shape": "The form used is a bold rectangular mass.",
+        "spatial design": "The highlight of its shape and form is its pure expression as a modern pavilion for art, with a clear distinction between its heavy walled enclosure and light over-sailing roof.",
+        "material design": "NA",
+        "keywords": "world-class art, cultural centre, Steenberg, Constantiaberg Mountain, Cape Town, vineyards, modern pavilion, rectangular mass, heavy walled enclosure, light over-sailing roof"
+    },
+    "birdview": {
+        "highlights": "The design features a modern structure that is currently under construction, integrating well with its surrounding landscape.",
+        "shape": "The form appears to be linear and rectangular, which is typical of contemporary architecture.",
+        "spatial design": "The highlight of its shape and form seems to be a systematic grid-like facade with repeating patterns, implying a level of modularity in design.",
+        "material design": "The use of steel and glass is prominent in the structure, with a combination of unfinished and clad elements that suggest a focus on modern, industrial materials.",
+        "keywords": "Modern, rectangular, grid-like facade, steel, glass, industrial materials, under construction, modular design"
+    },
+    "facade": {
+        "highlights": "The building features a modern and sleek design, with an extensive use of glass for transparency and a large flat roof that extends beyond the structure, providing a sense of openness and integration with the surroundings.",
+        "shape": "The building has a rectangular form with clean lines and a flat, extended roof.",
+        "spatial design": "The building's extensive use of glass maximizes natural light and provides unobstructed views to the outside, enhancing the relationship between indoor and outdoor spaces.",
+        "material design": "The use of glass in harmony with what appears to be concrete or stone for the structural elements and possibly steel for the framing, contributes to its elegant and minimalist aesthetic.",
+        "keywords": "Modern, Sleek, Glass, Rectangular, Flat Roof, Natural Light, Openness, Transparency, Concrete, Stone, Steel, Minimalist"
+    },
+    "floorplan": {
+        "highlights": "The highlight of this design appears to be its integration with the natural topography, featuring a fluid and organic form that adapts to the landscape.",
+        "shape": "The form used in this design is irregular and organic, possibly taking cues from the natural environment surrounding it.",
+        "spatial design": "The highlight of its shape and form is the way the design follows the contour lines of the terrain, suggesting a layout that minimizes impact on the environment while maximizing views and natural light.",
+        "material design": "As the image provided is a line drawing, details on the material design are not visible. However, the design itself suggests a thoughtful approach to the interaction between built environment and nature.",
+        "keywords": "Organic form, contour lines, topography, integration, environment, landscape, natural light, sustainable design"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the seamless integration of the storefront with the transparent glass facade, inviting natural light and providing an open view that connects the inside retail space with the outside environment.",
+        "shape": "The form is modern and minimalistic, with clean, straight lines and geometric shapes.",
+        "spatial design": "The highlight of its shape and form is the open-plan layout which creates a sense of spaciousness and allows for an easy flow throughout the retail space.",
+        "material design": "The highlight in its spatial and material design is the use of sleek, contemporary materials such as the polished concrete floor, the textured wall surfaces, and the modern lighting fixtures that provide a sophisticated ambience.",
+        "keywords": "minimalistic, modern, transparent, open-plan, natural light, geometric shapes, contemporary materials"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "description": {
+        "highlights": "The Metropolitan Museum of Art is one of the largest and most visited art museums in the world, with a diverse and extensive collection.",
+        "shape": "The main building is a large, sprawling complex with an architectural design that has expanded over time.",
+        "spatial design": "The museum's spatial design allows for the display of a vast array of art and artifacts, with specialized galleries for different time periods and cultures.",
+        "material design": "The museum features notable interiors and uses a range of materials to display and preserve its collection, including the construction of its galleries and exhibition spaces.",
+        "keywords": "art museum, large collection, diverse exhibits, historic interiors, encyclopedic collections"
+    },
+    "birdview": {
+        "highlights": "The highlight of this design is its complex layout with multiple wings and courtyards, suggesting a mix of different architectural styles and time periods.",
+        "shape": "The form is asymmetrical, with a mix of rectangular and polygonal shapes. The most notable is the hexagonal glass structure.",
+        "spatial design": "The highlight of its shape and form is the combination of strict geometrical shapes that accommodate different functions and the open spaces that integrate with the built environment.",
+        "material design": "Diverse roofing materials can be seen, with glass structures that probably allow natural light into the spaces below and flat roofing possibly used for utilitarian purposes.",
+        "keywords": "Asymmetrical, Complex, Mixed-styles, Courtyards, Glass Roof, Geometrical Shape, Diverse Materials"
+    },
+    "floorplan": {
+        "highlights": "The layout organizes various thematic and historical exhibits in an accessible and logical manner, creating an educational journey through art history.",
+        "shape": "The museum plan is asymmetrical but functional, with wings and galleries organized around central spaces like The Great Hall.",
+        "spatial design": "The central positioning of The Great Hall acts as a hub, emphasizing accessibility and orientation within the museum.",
+        "material design": "While the map does not specify materials, the spatial design suggests a combination of open spaces for movement and enclosed galleries for art display.",
+        "keywords": "Educational, Historical Exhibits, Asymmetrical, Functional, Central Hub, Accessibility, Enclosed Galleries"
+    },
+    "interior": {
+        "highlights": "The grand arches and the sweeping vaulted ceilings",
+        "shape": "Classic arched and domed design with a symmetrical layout",
+        "spatial design": "Generous use of space accentuated by grand arches and high ceilings, creating an expansive and open atmosphere",
+        "material design": "Elegant use of stone and marble with intricate detailing on the ceilings and walls",
+        "keywords": "Arches, Vaults, Symmetry, Elegance, Open Space, Stone, Marble, Intricate Detailing"
+    }
+}

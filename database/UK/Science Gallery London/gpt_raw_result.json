@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The merging of Science Gallery International's innovative program with the research strengths of King's College London within the historical Boland House.",
+        "shape": "The building retains the classical shape and structure of the Grade II* listed Boland House.",
+        "spatial design": "The integration of a modern gallery within the classical architecture of the original Guy's Hospital building.",
+        "material design": "Preservation of the historical facade and materials of Boland House with potential contemporary embellishments to accommodate the gallery's function.",
+        "keywords": "Cultural landscape, Science Gallery International, King's College London, Grade II* listed, Boland House, Guy's Hospital, London Bridge Station, science, art, technology"
+    },
+    "facade": {
+        "highlights": "The highlight of this design is the contrast between the modern glass structure and the traditional brick building, as well as the integration of digital screens within the glass.",
+        "shape": "The form used in this architecture is a combination of rectangular box-like structures with varying materials.",
+        "spatial design": "The highlight of its shape and form is the juxtaposition of historical and contemporary elements, creating a dialogue between old and new.",
+        "material design": "The highlight in its spatial and material design is the use of transparent glass that holds a digital display, set against the more solid and opaque materials of the adjacent older building.",
+        "keywords": "Contrast, Historical Modern Juxtaposition, Glass Facade, Digital Display, Transparent, Rectangular Form"
+    },
+    "facade2": {
+        "highlights": "The use of a perforated facade that integrates lighting effects creates a distinctive and visually engaging exterior.",
+        "shape": "It incorporates a vertical, elongated form with a flat facade.",
+        "spatial design": "The design leverages verticality and transparency, enhancing the visual depth and the interplay between the interior and exterior environments.",
+        "material design": "The prominent feature in its spatial and material design is the use of illuminated, perforated panels that give it a futuristic and dynamic appearance.",
+        "keywords": "Perforated facade, verticality, illumination, transparency, dynamic, futuristic"
+    },
+    "floorplan": {
+        "highlights": "Integration of open and built spaces, symmetry around central courtyards",
+        "shape": "Rectangular forms with central courtyards and interconnecting spaces",
+        "spatial design": "Balanced layout with central focal points provided by the courtyards, creating a sense of order and harmony",
+        "material design": "The materials are not specified in the image, but the design suggests the use of contemporary materials to define spaces and provide structure",
+        "keywords": "Symmetry, courtyard, interconnectivity, open space, rectangular, contemporary, harmony, layout, focal point"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the harmonious blend of modern and industrial elements, creating a chic and inviting dining atmosphere.",
+        "shape": "The form used is predominantly rectilinear, featuring straight lines and rectangular shapes that define the furniture layout, windows, and structure.",
+        "spatial design": "The highlight of its shape and form is the open-plan layout with high ceilings, large windows, and minimalistic furniture that emphasizes spaciousness and functionality.",
+        "material design": "The highlight in its spatial and material design is the contrast between the warmth of the wooden tables and flooring with the cooler tones of the metal features and white walls.",
+        "keywords": "Modern, Industrial, Chic, Rectilinear, Open-plan, Minimalistic, Contrast, Spaciousness, Functionality, Warmth"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "La collection permanente du mus\u00e9e est expos\u00e9e dans l'aile Passy du Palais de Chaillot \u00e0 Paris depuis 1943",
+        "shape": "Non sp\u00e9cifi\u00e9 dans le texte",
+        "spatial design": "Non sp\u00e9cifi\u00e9 dans le texte",
+        "material design": "Non sp\u00e9cifi\u00e9 dans le texte",
+        "keywords": "collection permanente, mus\u00e9e national de la Marine, Palais de Chaillot, Paris, travaux de r\u00e9novation"
+    },
+    "facade plan": {
+        "highlights": "The design is linear with an industrial aesthetic, featuring repetitive arches which may suggest a function related to transport or public utility.",
+        "shape": "It uses a linear, elongated form, with a series of arches and a clear horizontal axis.",
+        "spatial design": "The repetition of arches and bridging elements create a rhythm in the design, with open spaces indicative of a public or semi-public structure.",
+        "material design": "The materials are not specified, but the structure includes elements consistent with industrial or utilitarian architecture, offering a sense of durability and function.",
+        "keywords": "Linear, Industrial, Arches, Rhythm, Horizontal, Utilitarian, Public Space"
+    },
+    "facade": {
+        "highlights": "The highlight of this design is the juxtaposition of two iconic structures: one being a neoclassical facade with a strong, symmetrical appearance featuring a prominent portico with columns, and the other an intricate iron lattice tower in the background.",
+        "shape": "The form of the foreground structure uses a rectangular base with a flat roof and is characterized by vertical elements, such as columns and pilasters. The towering structure in the background has a tapering form constructed of interconnected metal beams forming a lattice-like structure.",
+        "spatial design": "The highlight of its shape and form is the strong contrast between the solidity and grounded nature of the neoclassical building in the foreground and the open, airy structure of the Eiffel Tower rising in the background, which creates a visually striking skyline.",
+        "material design": "The highlight in its spatial and material design is the use of stone or stucco in the neoclassical structure, which conveys durability and tradition, in contrast to the wrought iron of the Eiffel Tower, which, despite its openwork design, provides strength and lightness.",
+        "keywords": "Neoclassical, Columns, Portico, Symmetry, Eiffel Tower, Iron Lattice, Juxtaposition, Contrast, Durability, Tradition"
+    },
+    "floorplan": {
+        "highlights": "The building features a distinct curved form that creates a sweeping spatial gesture, possibly indicating functional and aesthetic considerations in its design.",
+        "shape": "The building adopts a semi-circular or crescent shape.",
+        "spatial design": "The curvilinear form itself is the highlight, suggesting fluidity and directionality in the building's layout and possibly influencing the flow of movement within.",
+        "material design": "As this is a blueprint, specific materials are not identifiable, but the use of glass is suggested by the shaded areas, indicating transparency and light as important elements in the design.",
+        "keywords": "Curved, Crescent, Fluidity, Transparency, Light, Spatial Flow, Blueprint, Architecture"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the combination of sleek, minimalist lines with a grand, open and curved ceiling that channels light into the space.",
+        "shape": "The architecture utilizes curvilinear forms, especially evident in the undulating ceiling and the arched recess that frames the entrance or passage on the back wall.",
+        "spatial design": "Its shape and form are highlighted by the expansive, uninterrupted space that creates a sense of openness, complemented by the curved lines of the ceiling which add fluidity and movement.",
+        "material design": "The highlight in its spatial and material design includes the use of light wood for fixtures such as benches and the reception counter, contrasted against the plain, light-colored walls and the ribbed texture of the curved ceiling.",
+        "keywords": "Minimalist, Curvilinear, Open space, Natural light, Wood accents, Ribbed ceiling, Spatial fluidity, Modern, Welcoming, Clean lines"
+    }
+}

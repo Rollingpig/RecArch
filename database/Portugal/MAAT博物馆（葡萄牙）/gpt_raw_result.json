@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "MAAT connects contemporary art, architecture, and technology with a new relationship to the river and a broader worldview.",
+        "shape": "It uses one of the oldest Western architectural forms, the arch.",
+        "spatial design": "The integration of building with landscape, enabling visitors to move all around and explore the sunken spaces beneath soft-expressed arches.",
+        "material design": "The use of three-dimensional crackled glass tiles reflects Portugal's attractive traditional arts and crafts, enhancing the facade's complexity and creating dynamic interpretations of water, light, and shadows.",
+        "keywords": "MAAT, riverfront, contemporary art, architecture, technology, arch, landscape integration, sunken spaces, glass tiles, traditional crafts, dynamic light and shadow"
+    },
+    "detail": {
+        "highlights": "The highlight of this design is its sleek, undulating form that seamlessly blends with its surroundings.",
+        "shape": "The building features a curvaceous, wave-like form emphasizing fluidity and motion.",
+        "spatial design": "The highlight of its shape and form is the building's dynamic curve, which creates an impression of movement and provides a visual flow.",
+        "material design": "The highlight in its spatial and material design is the use of reflective, geometrically patterned facade tiles that enhance the structure's fluidity and give it a unique texture.",
+        "keywords": "fluidity, dynamic, curvaceous, reflective, geometric patterns, undulating, movement, sleek"
+    },
+    "diagram": {
+        "highlights": "The seamless integration of different levels and structures",
+        "shape": "Modern with mixed rectilinear and dynamic angled forms",
+        "spatial design": "Efficient use of space with a focus on natural light and views",
+        "material design": "Combination of transparent and solid materials, large windows",
+        "keywords": "Modern, multi-level, natural light, angles, transparency, integration"
+    },
+    "exterior": {
+        "highlights": "The highlight of this design is its modern and organic form that integrates seamlessly with the waterfront setting.",
+        "shape": "The building features a curved and flowing form, reminiscent of a wave or a hill, harmonizing with the natural environment.",
+        "spatial design": "Its organic shape and form offer a smooth transition from the urban landscape to the riverfront, encouraging the mingling of natural and built environments.",
+        "material design": "The use of what appears to be a reflective or light-colored material for the exterior complements the water's surface and the sky, creating a sense of continuity between architecture and nature.",
+        "keywords": "Organic architecture, waterfront, integration, curved form, reflective material, environmental harmony, seamless, modern design"
+    },
+    "exterior2": {
+        "highlights": "The highlight of this design appears to be its dynamic, wave-like facade that creates an impression of movement and fluidity.",
+        "shape": "The form it uses is curvilinear, with an undulating shape that resembles a wave or a sail.",
+        "spatial design": "The highlight of its shape and form is the seamless, flowing lines that suggest motion and the integration of the structure with its surroundings, potentially a waterfront.",
+        "material design": "The highlight in its spatial and material design is the use of metal (likely steel or aluminum) cladding that has been intricately layered to create the textured, reflective surface.",
+        "keywords": "Curvilinear, Wave-like, Dynamic, Fluidity, Seamless, Reflective, Metallic cladding, Undulating"
+    }
+}

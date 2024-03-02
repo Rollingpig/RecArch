@@ -1,0 +1,30 @@
+{
+    "description": {
+        "highlights": "The MMCA Seoul is a representative institution of Korean modern art that introduces global contemporary art",
+        "shape": "Not specified",
+        "spatial design": "The design integrates with the superb natural landscape surrounding the site.",
+        "material design": "Not specified",
+        "keywords": "Korean art, MMCA, contemporary art, cultural platform, art, science, humanities, cultural experience"
+    },
+    "Facade": {
+        "highlights": "The highlight of this design is its clean, minimalist aesthetic with a large rectangular cutout that acts as an entrance or walkway.",
+        "shape": "The building is predominantly rectangular with a strong geometric form.",
+        "spatial design": "The utilization of a large, open cutout in the facade provides an interesting spatial dynamic that contrasts with the solid, uniform surfaces.",
+        "material design": "The contrast between the smooth, uniform panels on the upper construction and the textured stone walls on the lower section is particularly striking.",
+        "keywords": "Minimalist, Geometric, Rectangular, Contrasting materials, Textured stone, Smooth panels, Open facade"
+    },
+    "Interior": {
+        "highlights": "The highlight of this design is the vast, open, and well-lit gallery space that provides an unobstructed view of the artwork on display.",
+        "shape": "The form is a large open rectangle with minimal structural interruptions, facilitating an expansive and flexible display area.",
+        "spatial design": "The highlight of its shape and form is the use of wide, open spaces with high ceilings and a grid of white columns that organize the space without overwhelming it.",
+        "material design": "The highlight in its spatial and material design is the combination of the wooden flooring, white walls, and ceiling with a grid of skylights that ensures even distribution of natural light.",
+        "keywords": "Minimalist, Open Space, Natural Lighting, Flexible Layout, Modern, Column Grid, Wooden Flooring, White Walls, Skylights"
+    },
+    "Interior2": {
+        "highlights": "The highlight of this design is the grand spiral ramp and the large skylight that allows natural light to filter through to the exhibition space below.",
+        "shape": "The dominant form used in this design is circular, with smooth curves and a continuous flowing spiral structure.",
+        "spatial design": "The highlight of its shape and form is the open atrium in the center facilitated by the spiral ramp, which also functions as a viewing platform.",
+        "material design": "The highlight in its spatial and material design is the use of smooth, uniform surfaces, likely concrete or a similar material, that provide a monolithic and seamless appearance.",
+        "keywords": "Spiral, Atrium, Skylight, Natural light, Smooth surfaces, Flowing structure, Concrete, Monolithic, Exhibition space"
+    }
+}

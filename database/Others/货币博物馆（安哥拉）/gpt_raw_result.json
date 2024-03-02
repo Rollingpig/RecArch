@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The highlight of this design is the underground main body of the museum, creating a serene and quiet interior space, and the iconic urban square on the museum's rooftop which expands the public space of the Luanda waterfront.",
+        "shape": "The form of this design makes use of an underground construction for the museum and a rooftop urban square shaped like a metal sunshade umbrella.",
+        "spatial design": "The highlight of its shape and form is the integration of the museum's space into the underground, providing an unobtrusive appearance from the exterior while offering a spacious interior and a distinctive sunshade umbrella-like entrance.",
+        "material design": "The use of stone paving for the urban square creates a feeling of precise matching with the terrain when viewed from the seafront area or nearby buildings, which is the highlight in its spatial and material design.",
+        "keywords": "underground museum, urban square, serene interior space, sunshade umbrella entrance, stone paving, Luanda waterfront, public space, integration with terrain"
+    },
+    "birdview": {
+        "highlights": "The blend of classic and modern architectural elements, featuring a traditional building with a domed roof adjacent to a contemporary open space with geometric design elements.",
+        "shape": "The modern part of the design uses angular, geometric shapes, specifically triangular and trapezoidal forms, to create a dynamic open space.",
+        "spatial design": "The highlight of its shape and form is the use of the angular geometric shapes that create raised platforms, which seem to interact with the flat expanse of the surrounding plaza.",
+        "material design": "The highlight in its spatial and material design includes the juxtaposition of historic brickwork and plaster on the traditional building against the sleek, possibly concrete or stone finishes of the modern plaza, with contrasting lighting that emphasizes both.",
+        "keywords": "Juxtaposition, geometric, contemporary, traditional, angular, open space, dynamic, lighting, blend, raised platforms"
+    },
+    "exterior": {
+        "highlights": "The highlight of this design is the juxtaposition of the modern, angular canopy structure against the backdrop of the traditional, classical architecture.",
+        "shape": "The canopy has a geometric, angular form featuring multiple planes and facets that create a dynamic visual impact.",
+        "spatial design": "The highlight of its shape and form is the way it creates an intriguing interplay of light and shadow while providing an inviting public space.",
+        "material design": "The use of reflective metal material for the canopy contrasts with the more muted, earthy tones of the surrounding classical buildings, making it stand out as a modern intervention in a historic context.",
+        "keywords": "Modern, Angular, Reflective, Juxtaposition, Dynamic, Public Space, Contrast, Geometric, Light and Shadow, Inviting"
+    },
+    "exterior2": {
+        "highlights": "The highlight of this design is its futuristic cantilevered roofs that form unique geometric planes, creating an eye-catching and distinctive silhouette.",
+        "shape": "It utilizes an angular, asymmetrical form with expansive cantilevered sections, providing both shade and an architectural statement.",
+        "spatial design": "The interplay of the cantilevered structures with the open space underneath creates a fluid transition between indoor and outdoor environments.",
+        "material design": "Reflective metallic materials are used in the construction, which not only provide a modern, sleek look but also mirror the surroundings and sky, integrating the building into its environment.",
+        "keywords": "Futuristic, Cantilever, Geometric, Asymmetrical, Reflective, Open Space, Integration"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the juxtaposition of robust straight lines and geometric forms with the dynamic activity of people moving through the space.",
+        "shape": "The form is predominantly angular with a series of parallel planes and clean, straight lines contributing to a modern, minimalist style.",
+        "spatial design": "Its shape and form are highlighted by the expansive, uncluttered spaces allowing for easy movement and clear lines of sight, as well as the interplay of light and shadow across the surfaces.",
+        "material design": "The highlight in its spatial and material design is the use of large, unadorned stone slabs that give a sense of solidity and permanence, coupled with the reflective metal elements of the elevator and railing that add a touch of modernity.",
+        "keywords": "Minimalist, Geometric, Angular, Stone, Modern, Expansive, Solidity, Movement, Light and Shadow, Uncluttered"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The highlight of this design is the deep cultural connection and respect between the Thai people, particularly the ethnic Kui, and elephants, as well as the mission to advocate for ethical elephant treatment.",
+        "shape": "Not explicitly described in the text.",
+        "spatial design": "Not explicitly described in the text.",
+        "material design": "Not explicitly described in the text.",
+        "keywords": "Elephant Museum, Elephant World, cultural connection, ethnic Kui, Surin province, Thailand, elephants, coexistence, advocacy, ethical treatment"
+    },
+    "birdview": {
+        "highlights": "The design stands out for its complex, interconnected layout, which is clearly visible from an aerial viewpoint.",
+        "shape": "The form largely consists of geometrically shaped structures, resembling a complex puzzle piece from above.",
+        "spatial design": "The most striking aspect of its shape and form is how the different segments of the building interlock, suggesting functionality and flow within the complex.",
+        "material design": "The building features contrast between the darker roofing materials and the lighter color of the walls, emphasizing the building's modular design.",
+        "keywords": "Modular, Geometric, Complex, Interconnected, Flow, Contrast, Functional"
+    },
+    "facade": {
+        "highlights": "The architecture is integrated into the landscape, using a series of staggered, flat-roofed forms that mimic the contours of the surrounding terrain.",
+        "shape": "The building consists of geometric, angular segments that create a cohesive array of rectangular forms at varying heights.",
+        "spatial design": "The highlight of its shape and form is the harmonious blend with the natural environment and the creation of terraced levels that provide both functionality and aesthetics.",
+        "material design": "The use of earthy materials, possibly local stone or clay bricks, stands out, complementing the arid landscape and giving the structure an organic feel.",
+        "keywords": "Terraced, Angular Geometry, Landscape Integration, Earthy Materials, Flat Roofs, Staggered Levels"
+    },
+    "floorplan": {
+        "highlights": "The highlight of this design is the clear allocation of distinct functional areas, such as the Exhibition Hall, Seminar Rooms, and a variety of support rooms (e.g., Technicians, Security, Housekeepers), ensuring that the facility can accommodate a wide range of events and needs.",
+        "shape": "The form of the building uses a modular grid structure, which is functional and efficient. It appears to maintain a linear layout with emphasis on clear circulatory paths connecting various rooms and spaces.",
+        "spatial design": "The highlight of its shape and form seems to be the zoning and segmentation of space, with dedicated areas for public functions like the Exhibition Hall and private sections for staff and technical operations.",
+        "material design": "As this is a floor plan, specific details regarding material design are not available. However, considering the logical layout, materials used might focus on durability and functionality to support the different room purposes.",
+        "keywords": "Modular, Functional, Efficient, Zoned, Segmented, Public and Private Spaces, Linear Layout, Circulation, Durability"
+    },
+    "interior": {
+        "highlights": "The stark minimalist approach with strong emphasis on the purity of geometric forms and the texture of the brickwork",
+        "shape": "Rectilinear and geometric forms composed of various heights and thicknesses, creating an abstract silhouette against the sky",
+        "spatial design": "A play of light and shadow articulated through the strategic arrangement of walls and voids, shaping an ever-changing experience with the movement of the sun",
+        "material design": "Detailed attention to brick masonry, emphasizing a monolithic character and textural contrast with its surroundings, as well as the gravel on the ground",
+        "keywords": "Minimalism, Geometric, Textural, Brickwork, Light and Shadow, Monolithic, Abstract Silhouette, Rectilinear"
+    }
+}

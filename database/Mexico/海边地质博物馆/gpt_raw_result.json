@@ -1,0 +1,44 @@
+{
+    "description": {
+        "highlights": "\u6d77\u8fb9\u5730\u8d28\u535a\u7269\u9986\u901a\u8fc7\u6b63\u4ea4\u7f51\u683c\u7ed3\u6784\uff0c\u6574\u5408\u6587\u5316\u5efa\u7b51\u548c\u516c\u5171\u7a7a\u95f4\uff0c\u4e0e\u5468\u8fb9\u73af\u5883\u76f8\u4e92\u5173\u8054\u3002",
+        "shape": "\u6b63\u4ea4\u7f51\u683c\u7ed3\u6784\uff0c\u7ec4\u6210\u4e0d\u540c\u9ad8\u5ea6\u7684\u4f53\u91cf\u3002",
+        "spatial design": "\u4f53\u91cf\u4e4b\u95f4\u521b\u9020\u51fa\u9002\u5408\u5c45\u4f4f\u7684\u7a7a\u95f4\u3001\u906e\u9633\u548c\u666f\u89c2\u4e2d\u8f6c\u7a7a\u95f4\uff0c\u4ee5\u53ca\u4e00\u4e2a\u53ef\u659c\u5411\u7a7f\u8d8a\u7684\u666f\u89c2\u5c4b\u9876\u3002",
+        "material design": "\u535a\u7269\u9986\u6750\u6599\u91c7\u7528Chukum\uff0c\u4e00\u79cd\u6e90\u81ea\u739b\u96c5\u7684\u8010\u7528\u4e14\u5929\u7136\u9632\u6c34\u7684\u5929\u7136\u9970\u9762\u3002",
+        "keywords": "\u6d77\u8fb9, \u5730\u8d28\u535a\u7269\u9986, \u6b63\u4ea4\u7f51\u683c, Estudio MMX, \u5f00\u653e\u7a7a\u95f4, \u666f\u89c2\u5c4b\u9876, \u516c\u5171\u8d70\u5eca, \u739b\u96c5\u5efa\u7b51, \u60ac\u6302\u82b1\u56ed, \u5ba4\u5185\u5916\u5c55\u89c8\u7a7a\u95f4, Chukum, \u666e\u7f57\u683c\u96f7\u7d22, \u516c\u5171\u7a7a\u95f4"
+    },
+    "birdview": {
+        "highlights": "The building's proximity to the beach and the integration of outdoor spaces such as terraces and patios within the structure are the main highlights.",
+        "shape": "The architecture uses a contemporary, block-like modular form.",
+        "spatial design": "The use of cubic shapes and open terraces that foster indoor-outdoor living stands out in its shape and form.",
+        "material design": "The use of modern, possibly concrete materials for solid structures in combination with glass for openness and transparency is a highlight in the material design.",
+        "keywords": "Beachfront, Modern, Modular, Terraces, Glass, Concrete, Indoor-Outdoor Living, Open Spaces, Contemporary"
+    },
+    "exterior": {
+        "highlights": "The highlight of this design is its geometric simplicity and integration with the natural environment, particularly the sandy beachfront and palm trees.",
+        "shape": "It uses geometric shapes such as rectangles and triangles for the structural openings, creating an intriguing play of light and shadow.",
+        "spatial design": "The highlight of its shape and form is the repeated use of triangular cuts at the bottom of the walls, providing an artistic approach to entryways or spaces beneath the structures.",
+        "material design": "The use of a uniform sandy-colored finish on the structures highlights their material design, blending with the environment and providing a sense of continuity with the sandy beach.",
+        "keywords": "Geometric simplicity, Sandy color palette, Triangular openings, Environmental integration, Beachfront architecture"
+    },
+    "exterior2": {
+        "highlights": "The highlight of this design is its distinctive geometric shapes and the large, inverted arches that serve as both structural elements and entrances.",
+        "shape": "The buildings exhibit a modern, cubic form with pronounced geometric features.",
+        "spatial design": "The highlight of its shape and form is the repetition of the geometric pattern which creates a rhythmic facade that plays with light and shadow.",
+        "material design": "The highlight in its spatial and material design is the use of a uniform, possibly stucco or concrete finish that gives a smooth texture and monolithic appearance to the structures.",
+        "keywords": "modern, geometric, cubic, rhythmic facade, inverted arches, light and shadow, monolithic, smooth texture"
+    },
+    "exterior3": {
+        "highlights": "Integration of natural landscaping with minimalist design",
+        "shape": "Geometric, linear, stair-stepped planters",
+        "spatial design": "The stair-stepping pattern creates a terraced effect that enhances the sense of progression through the space",
+        "material design": "Use of what appears to be concrete or a similar material for the planters that complements the natural greenery and landscape",
+        "keywords": "Minimalist, geometric, integration, terraced, natural, progression, concrete, landscaping"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the geometric play of massive concrete forms, creating a stark contrast with the serene landscape in the background.",
+        "shape": "The form this structure uses is angular with its predominant diagonal supports creating a dynamic interplay of light and shadow.",
+        "spatial design": "The highlight of its shape and form is the sense of openness provided by the large spaces beneath the slanted concrete beams which appears to frame the view towards the ocean.",
+        "material design": "The highlight in its spatial and material design is the use of raw, unadorned concrete that gives the structure a monumental yet minimalist aesthetic.",
+        "keywords": "geometric, concrete, angles, light and shadow, openness, minimalist, monumental, framing views, raw materials"
+    }
+}

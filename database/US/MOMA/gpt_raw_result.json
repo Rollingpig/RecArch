@@ -1,0 +1,30 @@
+{
+    "description": {
+        "highlights": "America's first museum devoted exclusively to modern art",
+        "shape": "Not specified",
+        "spatial design": "Not specified",
+        "material design": "Not specified",
+        "keywords": "MoMA, modern art, Midtown Manhattan, Abby Aldrich Rockefeller, A. Conger Goodyear, Alfred H. Barr Jr., European modernists, John D. Rockefeller Jr."
+    },
+    "facade": {
+        "highlights": "The highlight of this design appears to be the transparent glass facade that allows visual access into the interior spaces, complete with warm, inviting lighting. The contrast between the glass section and the solid, darker cladding on the adjacent segments creates a striking visual effect.",
+        "shape": "The building uses a modern rectilinear form, characterized by straight lines and right angles that suggest a minimalist aesthetic.",
+        "spatial design": "The highlight of its shape and form is the layered look, with parts of the building set back from the glass facade, creating depth and variation in the design.",
+        "material design": "The highlight in its spatial and material design is the use of contrasting materials, with transparent glass juxtaposed against opaque panels, possibly metal or stone cladding, framing the building and adding texture.",
+        "keywords": "Modern, Glass facade, Transparency, Rectilinear, Contrast, Layered, Minimalist, Textured"
+    },
+    "facade2": {
+        "highlights": "The building features a sleek, modern design with a strong emphasis on geometric forms and a minimalist aesthetic.",
+        "shape": "The building uses rectilinear forms with some cantilevered elements and expansive glass surfaces.",
+        "spatial design": "The overhanging canopy and the spacious, glass-enclosed entrance emphasize openness and accessibility.",
+        "material design": "Use of reflective glass and dark panels provides a contrast of materials that captures the urban environment and complements the city's skyline.",
+        "keywords": "Modern, Geometric, Minimalist, Cantilever, Glass Facade, Urban, Reflective"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the expansive, open interior space with a dynamic installation of colorful shapes on a wall, creating a sense of modernity and artistic interaction.",
+        "shape": "The form of the interior space is succinct and geometric, with right angles and straight lines creating a minimalistic and open environment.",
+        "spatial design": "The use of large, open spaces that are interconnected, allowing for unobstructed views across different levels and areas, is a key feature of its shape and form. The use of balconies and glass railings contributes to this effect.",
+        "material design": "Use of glass in the railings enhances transparency and light flow, while the clean lines and white walls underscore the modernist aesthetic. The materials seem to be chosen for their ability to create a bright, airy space that showcases the artworks.",
+        "keywords": "Open spaces, Modernism, Minimalism, Geometric Shapes, Glass Railings, Natural Light, Art Installation, Airy Interior, Connectivity"
+    }
+}

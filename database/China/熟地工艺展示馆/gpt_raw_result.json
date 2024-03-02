@@ -1,0 +1,44 @@
+{
+    "description": {
+        "highlights": "\u8bbe\u8ba1\u6700\u6838\u5fc3\u7684\u601d\u7ef4\u8d77\u70b9\u662f\u4ee5\u201c\u9633\u5149\u201d\u4e3a\u6838\u5fc3\uff0c\u521b\u9020\u4e30\u5bcc\u7684\u81ea\u7136\u5149\u73af\u5883\uff0c\u4f7f\u5efa\u7b51\u4e0e\u5149\u7ebf\u4ea7\u751f\u4e30\u5bcc\u7684\u53d8\u5e7b\u6548\u679c\u3002",
+        "shape": "\u91c7\u7528\u8fd1\u5706\u7684\u6b63\u591a\u8fb9\u5f62\uff0c\u4ee5\u201c\u76f4\u201d\u8425\u66f2\u5f62\u5f0f\u89c4\u907f\u5f27\u5f62\u3002",
+        "spatial design": "\u4e2d\u5fc3\u5bf9\u79f0\u7684\u5706\u5f62\u5e73\u9762\u5e03\u5c40\u9002\u4e8e\u5c55\u89c8\u7a7a\u95f4\uff0c\u901a\u8fc7\u5c42\u53e0\u7684\u7a7a\u95f4\u4e0e\u7ed3\u6784\u8bbe\u8ba1\u521b\u9020\u6d41\u52a8\u7684\u89c2\u5c55\u6d41\u7ebf\u548c\u591a\u91cd\u201c\u73af\u201d\u72b6\u7a7a\u95f4\u3002",
+        "material design": "\u878d\u5165\u4e61\u571f\u7279\u8272\uff0c\u7ed3\u5408\u73b0\u4ee3\u4e0e\u4f20\u7edf\u5143\u7d20\uff0c\u4f7f\u7528\u5f53\u5730\u7ea2\u7816\u6e05\u6c34\u5899\u5de5\u827a\u548c\u80f6\u5408\u6728\u5de5\u7a0b\u6750\u6599\u3002",
+        "keywords": "\u9633\u5149, \u5706\u5f62\u5e73\u9762, \u81ea\u7136\u5149\u73af\u5883, \u4e61\u571f\u7279\u8272, \u87ba\u65cb\u73af\u53e0\u5c4b\u67b6, \u7ea2\u7816\u6e05\u6c34\u5899, \u5de5\u4e1a\u5382\u623f, \u751f\u6001\u5c5e\u6027"
+    },
+    "birdview": {
+        "highlights": "The juxtaposition of modern structures amidst traditional rural settings and natural landscapes is the highlight of this design.",
+        "shape": "The building in the foreground has a unique, modern, and curvilinear form with a sloping roof.",
+        "spatial design": "The highlight of its shape and form is the seamless integration of the structure into the surrounding environment while maintaining a distinct, modern architectural character.",
+        "material design": "The highlight in its spatial and material design appears to be the use of what seems like large glass facades and possibly metallic or composite materials for roofing, creating an organic feel in alignment with the natural surroundings.",
+        "keywords": "modern, rural, curvilinear, sloping roof, glass facade, integration, environmental, organic"
+    },
+    "detail": {
+        "highlights": "The combination of modern and traditional materials with an open-air concept",
+        "shape": "Primarily linear and rectangular forms with symmetrical patterns",
+        "spatial design": "The design features a rhythmic pattern in its brick walls and open wooden roof structure, enhancing an open and airy feel while maintaining privacy",
+        "material design": "The contrast between the rustic, earthy brick walls and the warm-toned wooden elements in the roof structure",
+        "keywords": "traditional, modern, bricks, wooden beams, airy, open concept, symmetry, rustic, earth tones, linear"
+    },
+    "exterior": {
+        "highlights": "The highlight of this design is its simplistic curvilinear form which provides a modern yet understated aesthetic.",
+        "shape": "The architecture employs a curved, almost circular form.",
+        "spatial design": "The highlight of its shape and form is the continuity and flow that the curved shape provides, promoting a sense of harmony with the surroundings.",
+        "material design": "The highlight in its spatial and material design is the use of brickwork for walls contrasted with what appears to be wooden supports and metal roofing, offering a blend of traditional and contemporary materials.",
+        "keywords": "curvilinear, modern, harmony, brickwork, wooden, metal roof, contemporary, understated, circular form"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is its intricate wooden lattice structure that creates a transparent yet defined interior space, with a central oculus that allows for natural light to flood the central area where a person is standing.",
+        "shape": "The form resembles a cylindrical or circular shape with a radial symmetry.",
+        "spatial design": "The highlight of its shape and form is the sense of openness and fluidity within a clearly modular structure, emphasized by the repeating wooden frames that guide the eye towards the central oculus.",
+        "material design": "The highlight in its spatial and material design is the use of wood as a primary material, which gives the space a warm, natural feeling and showcases the material's versatility in creating complex, repeating geometries.",
+        "keywords": "Wooden, Modular, Lattice, Radial Symmetry, Oculus, Natural Light, Transparent, Warm, Cylindrical"
+    },
+    "interior2": {
+        "highlights": "The integration of modern wooden structural elements with traditional brick walls.",
+        "shape": "Rectilinear and modular, with a clear rhythm defined by the wooden posts and beams.",
+        "spatial design": "The highlight is the open layout which is modular and organized in a grid-like fashion providing flexible space.",
+        "material design": "The combination of warm wooden tones with the rustic texture of the exposed brick walls creates a harmonious and inviting atmosphere.",
+        "keywords": "Wooden structure, brick walls, modular, rectilinear, open layout, warm tones, rustic texture, natural light"
+    }
+}

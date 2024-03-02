@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The Lyon Housemuseum blurs the lines between a private residence and a public museum, offering a space that serves as both a home to a family and a venue for a contemporary art collection.",
+        "shape": "The building includes two prominent double height spaces\u2014 a 'white cube' and 'black box'.",
+        "spatial design": "The innovative use of double height spaces as explicitly designed museum areas is the highlight of its shape and form.",
+        "material design": "The contrast between the museum spaces and the private domestic areas, which are defined with enclosed boxlike forms, is a highlight in its spatial and material design.",
+        "keywords": "hybridised type, housemuseum, public and private, art and architecture, contemporary art, Melbourne, double height space, white cube, black box, private domestic spaces"
+    },
+    "facade": {
+        "highlights": "The highlight of this design is its modern and unconventional silhouette with a dynamic, angular roofline.",
+        "shape": "It uses a contemporary, asymmetrical form with sharp geometric lines and varying elevations.",
+        "spatial design": "The design's highlight would be the angular, seemingly haphazard alignment of its forms, creating a unique and modern facade.",
+        "material design": "The building features a uniform, dark cladding material that offers a stark contrast to its transparent glass elements, emphasizing both its solidity and its connection with the outdoors.",
+        "keywords": "Geometric, Asymmetrical, Contemporary, Angular, Modern, Contrast, Dark Cladding, Glass"
+    },
+    "floorplan": {
+        "highlights": "The design highlights multifunctional spaces that serve various cultural and administrative functions, such as galleries, a concert or event space, and a library, alongside offices and meeting areas.",
+        "shape": "The form is rectangular with various interlocking rectangular and square spaces, creating a sense of rhythm and segmentation within the overall layout.",
+        "spatial design": "The highlight of its shape and form lies in the clear zonation of spaces for different uses and the seamless flow between public and private areas.",
+        "material design": "While the image doesn't specify materials, the highlight in spatial and material design can be inferred as the utilization of open spaces, possibly with a focus on natural lighting and acoustic considerations in performance areas like the concert space.",
+        "keywords": "multifunctional, cultural space, administrative, galleries, acoustic design, natural lighting, open spaces, zonation, rectangular form, seamless flow"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is its modern, warm, and welcoming interior with extensive use of natural wood.",
+        "shape": "The form is clean and geometric, with rectilinear shapes and a coherent layout that enhances usability.",
+        "spatial design": "The highlight of its shape and form is the intelligent use of space, creating distinct areas for various activities while maintaining an open plan feel.",
+        "material design": "The highlight in its spatial and material design is the combination of natural wood textures, concrete, and glass, which creates a balanced, light-filled environment that feels both organic and contemporary.",
+        "keywords": "Modern, Natural Wood, Geometric, Open Plan, Warm, Welcoming, Usability, Textures, Light-filled, Organic, Contemporary"
+    },
+    "interior2": {
+        "highlights": "The highlight of this design is the bold, geometric orange staircase that serves as a striking focal point.",
+        "shape": "The form includes a mix of angular and clean lines with geometric shapes.",
+        "spatial design": "The highlight is the interplay between the dynamic, angular staircase and the surrounding calm, neutral-toned spaces.",
+        "material design": "The contrast between the vivid orange paint on the staircase and the wooden elements alongside the terrazzo flooring is the highlight.",
+        "keywords": "Bold, Geometric, Angular, Contrast, Orange, Wood, Terrazzo, Clean Lines, Focal Point"
+    }
+}

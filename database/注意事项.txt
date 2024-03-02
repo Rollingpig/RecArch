@@ -1,0 +1,32 @@
+# 表格meta.csv
+
+用来存放链接和其他统一的信息。"meta"这个名字不要改。
+
+## 必填项目
+project：案例链接
+architects：建筑师名字，用英文逗号隔开
+city：城市名字，中国的城市就用中文
+
+# 选填项目
+material：archdaily里面标注的材料标签，用英文逗号隔开，如果没有就不用自己补充了
+***.jpg: 如果每张图片的来源都不一样，就附一下链接。否则就不用填这些。
+
+# 图片
+
+命名尽可能从以下名字里面选，不要在后面跟上案例名字：
+
+floorplan.jpg floorplan2.jpg ....
+section.jpg section2.jpg ....
+detail.jpg detail2.jpg
+
+birdview.jpg birdview2.jpg ...
+interior.jpg interior2.jpg ...
+exterior.jpg exterior2.jpg ...
+
+diagram.jpg diagram2.jpg ...
+
+如果实在没法将图片归类到以上名字之中，再单独取名
+
+# description文件
+
+用txt，存放案例描述文本，中英文都可以。不能只放一个链接

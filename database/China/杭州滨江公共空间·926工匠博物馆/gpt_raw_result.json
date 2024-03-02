@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "\u73b0\u4ee3\u5316\u5f62\u6001\u7684\u5851\u9020\u3001\u6f02\u6d6e\u8f7b\u76c8\u7684\u5efa\u6784\u3001\u4e0e\u81ea\u7136\u4ea4\u878d\u7684\u8bbe\u8ba1\u7406\u5ff5",
+        "shape": "\u6d41\u7ebf\u578b\u7684\u94dd\u677f\u5899\u9762\u4e0e\u9876\u9762\u4e00\u4f53\uff0c\u8936\u76b1\u7684\u5c4b\u9762\u5f62\u6210\u4fa7\u9762\u98de\u626c\u8d77\u7fd8\u7684\u5c4b\u6a90\u5f62\u6001",
+        "spatial design": "\u5ba4\u5185\u5916\u7a7a\u95f4\u4ea4\u878d\u3001\u56db\u4e2a\u4e0d\u540c\u65b9\u5411\u7684\u7a97\u53e3\u3001\u4e24\u4e2a\u4e09\u89d2\u5f62\u5929\u7a97",
+        "material design": "\u6574\u4f53\u6253\u78e8\u7684\u53cc\u5c426mm\u539a\u9633\u6781\u6c27\u5316\u94dd\u6298\u677f\u91c7\u7528\u6570\u63a7\u5236\u9020\u6280\u672f\uff0c\u8f7b\u76c8\u901a\u900f\u7684\u94a2\u6841\u67b6\u7ed3\u6784\u652f\u6491",
+        "keywords": "\u73b0\u4ee3\u5de5\u5320\u7cbe\u795e, \u6f02\u6d6e\u8f7b\u76c8\u5efa\u6784, \u81ea\u7136\u4ea4\u878d, \u6570\u63a7\u5236\u9020\u6280\u672f, \u901a\u900f\u7eaf\u51c0"
+    },
+    "birdview": {
+        "highlights": "The highlight of this design is its fluid, organic-like structure that seems to blend into the surrounding landscape.",
+        "shape": "The form used appears to be biomorphic, with flowing lines and curves reminiscent of natural formations.",
+        "spatial design": "The shape and form are highlighted by the seamless integration of indoor and outdoor spaces and the smooth, undulating surfaces that create a dynamic visual effect.",
+        "material design": "The use of a reflective material for the building's surface is the highlight, as it captures the changes in natural light and enhances the structure's visual connection to the environment.",
+        "keywords": "Fluid, Biomorphic, Reflective, Integrated landscape, Organic, Dynamic, Undulating"
+    },
+    "exterior": {
+        "highlights": "The highlight of this design is its fluid, organic curves that create a harmonious connection between the structure and the surrounding nature.",
+        "shape": "The form used in this design is undulating and wave-like, with repetitive curved lines that create a sense of movement and continuity.",
+        "spatial design": "Its shape and form are highlighted by the seamless curves which appear to flow naturally, enveloping space and creating intriguing pathways and openings.",
+        "material design": "The use of concrete with a smooth finish accentuates the fluidity of the structure, providing a modern aesthetic while also allowing the architecture to integrate with the landscape.",
+        "keywords": "organic, fluidity, continuity, undulating, harmonious, concrete, modern, landscape-integrated, seamless, curved"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is its open and airy space with an industrial aesthetic, characterized by exposed materials and a spacious layout.",
+        "shape": "The form used is organic and curvilinear, with sweeping arches or vaults.",
+        "spatial design": "The highlight of its shape and form is the expansive, flowing space that allows for a fluid movement throughout, creating a sense of openness and continuity.",
+        "material design": "The highlight in its spatial and material design is the use of raw materials such as exposed concrete and metal mesh, which give it a modern, industrial look while also allowing for transparency and lightness.",
+        "keywords": "Industrial, Spacious, Organic, Curvilinear, Exposed Concrete, Mesh, Fluidity, Modern, Transparent, Light"
+    },
+    "interior2": {
+        "highlights": "The highlight of this design is the sweeping, continuous form of the ceiling and walls, creating a fluid sense of movement and a futuristic atmosphere.",
+        "shape": "The form used here is organic and curvilinear, emphasizing continuous surfaces and a dynamic flow of space.",
+        "spatial design": "The highlight of its shape and form is the seamlessness between the ceiling and walls, and the integration of natural lighting through the geometric skylight structure.",
+        "material design": "The highlight in its spatial and material design is the use of what appears to be concrete or a similar textured surface that gives it an industrial-chic feel, complemented by the transparency of the glass skylights and the metallic details.",
+        "keywords": "Futuristic, Organic, Curvilinear, Seamless, Industrial, Dynamic, Fluidity, Textured, Natural Light, Geometric"
+    }
+}

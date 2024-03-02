@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The Museum complements the existing memorial tower and enhances the public experience while continuing the legacy of the adjacent Memorial Tower through contemporary design.",
+        "shape": "The Museum features a contemporary structure that conforms to the hill in a sympathetic manner.",
+        "spatial design": "It includes 230sqm of flexible and adaptable exhibition space, accommodating permanent and traveling collections.",
+        "material design": "The design interprets the unique physical and material site character, with special attention to the rough and rugged beauty that reflects the bravery of soldiers.",
+        "keywords": "contemporary, complementary, rough and rugged, adaptable space, war memorabilia, educational programs, Memorial Tower, site character"
+    },
+    "facade": {
+        "highlights": "The highlight of this design is its reflective facade, which mirrors the surroundings and the sky, creating a dynamic interaction with the environment.",
+        "shape": "The form of the building appears to be a series of rectangular volumes with a flat roof, giving it a modern, minimalist appearance.",
+        "spatial design": "The highlight of its shape and form is its modularity, which suggests a rhythmic and articulated construction. The reflection and interaction with the environment also enhance its spatial presence.",
+        "material design": "The highlight in its spatial and material design is the use of a glossy, reflective material for the facade, possibly metal or a polished stone, paired with concrete elements. This choice of materials provides a contrast between the ethereal reflections and the solidity of the structure.",
+        "keywords": "reflective facade, environmental interaction, modular, minimalist, modern, rhythmic articulation, glossy materials, contrast"
+    },
+    "floorplan": {
+        "highlights": "The highlight of this design is the integration of different functional areas such as the arrival plaza, exhibition spaces, and the memorial tower within a cohesive site plan.",
+        "shape": "The form includes both rectilinear and angular elements, creating a dynamic site plan layout.",
+        "spatial design": "The highlight of its shape and form is how the spaces are organized along a central axis, leading towards the memorial tower, suggesting a journey or procession.",
+        "material design": "While the image does not provide specific details about materials, the spatial design suggests a careful consideration of how open spaces and architectural elements coexist.",
+        "keywords": "Memorial, Museum, Site Plan, Functional Areas, Cohesion, Central Axis, Procession, Dynamic Layout"
+    },
+    "interior": {
+        "highlights": "The minimalist and modern aesthetic with a focus on natural textures and clean lines is the highlight of this design.",
+        "shape": "The design utilizes geometric shapes with sharp edges predominantly seen in the display cases and furniture layout.",
+        "spatial design": "The use of space creates a structured flow that guides visitors through the exhibit area, with clearly defined paths between display cases.",
+        "material design": "Highlights include the contrast between the raw textured concrete of the walls and ceiling, the smooth terrazzo flooring, and the use of glass and wood for the display cases.",
+        "keywords": "Minimalist, Modern, Texture, Concrete, Terrazzo, Glass, Wood, Geometric, Structured Flow, Clean Lines"
+    },
+    "interior2": {
+        "highlights": "The design highlights a modern, minimalistic approach with a focus on exhibiting items in a clear and accessible manner.",
+        "shape": "The form of the space is simple and clean, with straight lines and a spacious layout. ",
+        "spatial design": "The highlight of its shape and form is the open space that accommodates foot traffic and exhibit viewing, ensuring that the exhibits are the central focus.",
+        "material design": "The highlight in its spatial and material design includes the use of glass for display cases, which ensures visibility from multiple angles, and the presence of polished concrete floors paired with gray and wooden tones that give a contemporary look.",
+        "keywords": "Modern, minimalistic, spacious, clear visibility, glass display cases, polished concrete, contemporary, accessible"
+    }
+}

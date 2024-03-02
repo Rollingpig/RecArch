@@ -1,0 +1,30 @@
+{
+    "description": {
+        "highlights": "\u5efa\u7b51\u4e0e\u5927\u9e4f\u5c71\u6d77\u73af\u5883\u7684\u878d\u5408\uff0c\u7a7a\u95f4\u7684\u81ea\u7531\u7075\u52a8\uff0c\u8bed\u8a00\u7684\u7cfb\u7edf\u7eaf\u7cb9",
+        "shape": "\u6574\u4f53\u9020\u578b\u72b9\u5982\u4e00\u7247\u767d\u8272\u7684\u4e91\u6735",
+        "spatial design": "\u8fde\u7eed\u7684\u65e0\u67f1\u7a7a\u95f4\u7ed3\u6784\uff0c\u529f\u80fd\u533a\u76f8\u4e92\u72ec\u7acb\u53c8\u6709\u673a\u8054\u7cfb\uff0c\u5185\u90e8\u5f62\u6210\u81ea\u7531\u6d41\u7ebf",
+        "material design": "\u8f7b\u76c8\u7075\u900f\u7684\u754c\u9762\u6750\u6599\uff0c\u8fd0\u7528\u5168\u900f\u660e\u3001\u4e0d\u900f\u660e\u4e0e\u534a\u900f\u660e\u4e09\u79cd\u6750\u6599\u53e0\u52a0\uff0c\u5e55\u5899\u6548\u679c\u5982\u8f7b\u7eb1\u8986\u76d6\uff0c\u5c55\u793a\u5149\u5f71\u4ea4\u9519\u7684\u7a7a\u95f4\u4f53\u9a8c",
+        "keywords": "\u6d77\u4e0a\u7684\u4e91, SANAA, \u7a7a\u95f4\u81ea\u7531\u7075\u52a8, \u7eaf\u7cb9\u8bbe\u8ba1\u8bed\u8a00, \u65e0\u67f1\u7a7a\u95f4, \u754c\u9762\u6750\u6599, \u5149\u5f71\u4ea4\u9519, \u672a\u6765\u611f\u7a7a\u95f4\u4f53\u9a8c"
+    },
+    "birdview": {
+        "highlights": "The highlight of this design is its organic, bubble-like structure that seamlessly blends with the natural landscape.",
+        "shape": "The structure uses a series of interconnected domes with a fluid, organic form.",
+        "spatial design": "The highlight of its shape and form is the complex network of geometric patterns that create the domes, offering an intricate and light appearance.",
+        "material design": "The highlight in its spatial and material design is the use of a transparent or translucent material that allows light to permeate, generating a delicate interplay between light and shadow within.",
+        "keywords": "Organic, Geometric, Translucent, Light, Interconnected Domes, Natural Landscape"
+    },
+    "exterior": {
+        "highlights": "The highlight of this design is the seamless integration of the structure with the natural landscape, featuring a series of interconnected domed enclosures with a transparent facade.",
+        "shape": "This design uses a series of organic, dome-like forms.",
+        "spatial design": "The highlight of its shape and form is the fluidity and curvature of the domes, which mimic natural formations and create a sense of continuity with the environment.",
+        "material design": "The use of transparent materials for the fa\u00e7ades stands out, allowing for unobstructed views of the surroundings and making the architecture feel light and non-intrusive.",
+        "keywords": "organic, domes, transparent, integrated, natural landscape, curvature, lightness, continuity, non-intrusive, seamless"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the expansive, undulating canopy of interlacing beams that creates a dynamic and airy interior space.",
+        "shape": "The structure uses an organic, curvilinear form, reminiscent of natural wave patterns or the gentle undulation of a landscape.",
+        "spatial design": "Its form is highlighted by the seamless flow and continuity of the space, accentuated by the rhythmic pattern of the ribs across the ceiling.",
+        "material design": "The highlight in its spatial and material design is the translucency and reflectivity of the materials used, which allow for natural light diffusion and create a light, open atmosphere.",
+        "keywords": "Organic, Curvilinear, Undulating, Airy, Dynamic, Rhythmic, Translucent, Reflective, Natural Light, Open Space"
+    }
+}

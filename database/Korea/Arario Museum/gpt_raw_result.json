@@ -1,0 +1,30 @@
+{
+    "description": {
+        "highlights": "The Arario Museum in Space is one of the most unique cultural spaces in Seoul that used to serve as Kim Swoo-geun's office and home.",
+        "shape": "The form of the building is not specified, but it served multiple purposes and now functions as a modern art museum.",
+        "spatial design": "The building is a historic and unique space filled with incredible modern art.",
+        "material design": "The material design is not specified, but the building is known for its historical and cultural significance.",
+        "keywords": "Arario Museum in Space, modern art, Kim Swoo-geun, Seoul, historic building, cultural space"
+    },
+    "birdview": {
+        "highlights": "The integration of modern transparent architecture with natural elements, creating a visually captivating juxtaposition.",
+        "shape": "The building exhibits a contemporary rectangular form with clear geometric lines.",
+        "spatial design": "The highlight of its shape and form is the use of extensive glass walls and terracing, allowing natural light to permeate the structure and offering unobstructed views.",
+        "material design": "The use of glass as a primary facade material, combined with the greenery that seamlessly blends with the surroundings, is a standout in both spatial and material design.",
+        "keywords": "Transparent, Modern, Rectangular, Geometric Lines, Glass Facade, Natural Light, Integration with Nature, Terraced Structure"
+    },
+    "floorplan": {
+        "highlights": "The design features a large central space designated as 'art gallery', suggesting a focus on a significant exhibition area.",
+        "shape": "The floor plan appears rectangular with specific spaces dedicated to different functions such as stock room, office, corridor, and art gallery.",
+        "spatial design": "The emphasis on open space in the art gallery contrasts with the partitioned and functional ancillary rooms, highlighting a clear separation between exhibition and operational areas.",
+        "material design": "The material design is not explicit in the provided floor plan, although the clear demarcation of spaces might suggest varied material usage for functional and aesthetic purposes.",
+        "keywords": "art gallery, rectangular floor plan, exhibition area, open space, ancillary rooms, functional separation"
+    },
+    "interior2": {
+        "highlights": "The highlight of this design is its minimalist aesthetic combined with industrial elements. Large windows offer ample natural light and views of the outside landscape.",
+        "shape": "The form utilizes simple geometric shapes with clean lines. The interior seems to have a linear flow with columns and beams playing a significant structural role.",
+        "spatial design": "The highlight of its shape and form is the open space layout which creates a sense of expansiveness. The visible structure like beams and columns adds to the industrial chic.",
+        "material design": "The design showcases a contrast between the polished floor, the raw concrete columns, and the ceiling with exposed infrastructure elements. It utilizes both finished and unfinished materials.",
+        "keywords": "Minimalist, Industrial, Geometric, Expansive, Natural Light, Contrast, Raw Concrete, Exposed Structure, Polished Floors"
+    }
+}

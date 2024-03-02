@@ -1,0 +1,30 @@
+{
+    "description": {
+        "highlights": "The Museum of Contemporary Art houses an extensive collection of works by many famous Thai artists and aims to share, spread, and preserve true Thai art and culture.",
+        "shape": "Not specified in the text provided",
+        "spatial design": "Not specified in the text provided",
+        "material design": "Not specified in the text provided",
+        "keywords": "Bangkok, contemporary art, museum, Thai artists, cultural preservation, extensive collection"
+    },
+    "facade": {
+        "highlights": "The highlight of this design is the large, monolithic facade with decorative geometric elements that cascade down one corner, which provides a stark contrast to the otherwise minimalist appearance.",
+        "shape": "The form is primarily a simplistic and massive cube-like structure.",
+        "spatial design": "The cascade of geometric elements on one corner of the building offers a dynamic transition from the simple, massive forms to more intricate and detailed designs, which emphasizes the spatial variation within the design.",
+        "material design": "The use of what appears to be tiled or paneled material on the exterior walls to create a uniform texture, coupled with the bold, sculptural geometric shapes that stand in relief against this texture, indicates a material design that juxtaposes simplicity with complexity.",
+        "keywords": "Minimalist, Geometric, Monolithic, Contrast, Cube-like, Textured, Sculptural, Dynamic, Simple"
+    },
+    "floorplan": {
+        "highlights": "Central atrium that seems to provide natural light and vertical connectivity",
+        "shape": "Utilizes rectangular shapes with the atrium creating a negative space",
+        "spatial design": "Open atrium flanked by parallel structures creates a sense of openness",
+        "material design": "Focus on contrast between solid building spaces and the open, possibly glass-covered atrium",
+        "keywords": "Atrium, natural light, vertical connectivity, openness, parallel structures, negative space"
+    },
+    "interior": {
+        "highlights": "The highlight of this design is the use of geometric patterns on the wall which creates an engaging play of light and shadows across the space, accompanied by the clean lines of the staircase.",
+        "shape": "The form used is minimalist and geometric.",
+        "spatial design": "The highlight of its shape and form is the spacious, open-plan layout which provides a sense of openness and tranquility.",
+        "material design": "The highlight in its spatial and material design is the stark contrast between the crisp white walls and the bold geometric shapes, coupled with the glossy floor that reflects the natural light.",
+        "keywords": "Minimalist, geometric, open-plan, light and shadow, clean lines, tranquil, contrast, reflective"
+    }
+}

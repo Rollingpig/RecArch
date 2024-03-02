@@ -1,0 +1,37 @@
+{
+    "description": {
+        "highlights": "The Museo Soumaya's extensive collection includes over 66,000 works from 30 centuries of art, making it one of the most complete collections of its kind, and the museum's significant visitor attendance.",
+        "shape": "Not directly stated in the text, please provide information about the museum's form.",
+        "spatial design": "Not directly stated in the text, please provide details about the museum's shape and form.",
+        "material design": "Not directly stated in the text, please provide information about the museum's spatial and material design.",
+        "keywords": "Private museum, Mexico City, non-profit cultural institution, 66,000 works, 30 centuries of art, Pre-Hispanic Mesoamerica, Mexican art, European old masters, modern western art, Auguste Rodin, Salvador Dal\u00ed, Tintoretto, most visited art museum in Mexico"
+    },
+    "facade": {
+        "highlights": "The building features a distinctive porous skin and a unique, flowing form that commands attention",
+        "shape": "The form is organic, resembling a billowing shape or a flowing piece of fabric, with a wide base that narrows and then flares out at the top",
+        "spatial design": "The highlight is the building's dynamic silhouette and fluid motion that defy traditional rectilinear architecture",
+        "material design": "The highlight is the use of hexagonal tiling for the facade, creating a unique textural appearance that both reflects light and offers a sense of openness",
+        "keywords": "Organic, fluid, hexagonal tiling, dynamic, porous fa\u00e7ade, contemporary, sculptural"
+    },
+    "floorplan": {
+        "highlights": "Innovative design integrating with existing landscape",
+        "shape": "Fluid, organic shapes with curves",
+        "spatial design": "Use of curves creates a natural flow and connectivity within the space",
+        "material design": "Integration of modern materials with natural elements likely to emphasize eco-friendliness and sustainability",
+        "keywords": "Fluidity, Organic, Integration, Landscape, Sustainability, Modern, Connectivity, Eco-friendly"
+    },
+    "interior": {
+        "highlights": "The curvilinear ramp that creates a smooth, continuous flow through the gallery space is the highlight of this design.",
+        "shape": "The form is characterized by sinuous, curving lines and minimalistic surfaces.",
+        "spatial design": "The highlight of its shape and form is the seamless integration of the ramp, which guides visitors through the exhibition space in an engaging manner.",
+        "material design": "The contrast between the warm wooden flooring and the white, minimalistic curves of the walls and ceiling stands out in its spatial and material design.",
+        "keywords": "curvilinear, minimalistic, continuous flow, seamless integration, contrast, warm wood, white walls"
+    },
+    "interior2": {
+        "highlights": "The highlight of this design is its minimalist approach with a focus on sleek curvature and open spaces.",
+        "shape": "The form is curvilinear, featuring smooth, flowing lines and an absence of sharp angles.",
+        "spatial design": "The highlight of its shape and form is the continuous, unbroken surfaces that guide the viewer's eye and create a sense of movement.",
+        "material design": "The highlight in its spatial and material design is the use of white surfaces that enhance the feeling of spaciousness and the subtle integration of lighting that accentuates the curves.",
+        "keywords": "minimalist, curvilinear, flowing lines, open space, white, lighting, spaciousness, movement"
+    }
+}
