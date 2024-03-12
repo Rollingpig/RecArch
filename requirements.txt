@@ -1,8 +1,8 @@
 tqdm
 openai
 scikit-learn
-pygame
 retrying
 json5
 python-dotenv
 requests
+Flask

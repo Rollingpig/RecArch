@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RecArch</title>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></head>
+<body>
+    <div class="title">
+        <h1>RecArch</h1>
+        <p>Find similar architecture to your query</p>
+    </div>
+
+    <!-- Text field and button -->
+    <div class="query-banner">
+        <input type="text" id="inputField" placeholder="Enter some text" class="input-field">
+        <button id="runButton" class="search-btn">Find</button>
+    </div>
+    <!-- Element to display the result -->
+    <div class="result" id="result"></div>
+
+    <!-- JavaScript to handle button click and make AJAX request -->
+    <script>
+        $(document).ready(function(){
+            $('#runButton').click(function(){
+                // Get the value from the text field
+                var inputData = $('#inputField').val();
+                // Make the AJAX request to the Flask app
+                $.post('/run-python', {inputData: inputData}, function(data){
+                    // data is a list
+                    // We need to each element as a div
+                    // in each div, we display the the first subelement as h1
+                    // and the "similarity" in the second subelement as p
+                    // display the image in "image_path" with a href to "web_url"
+                    var result = '';
+                    for (var i = 0; i < data.length; i++) {
+                        result += '<div class="case">';
+                        result += '<h2>' + data[i][0] + '</h2>';
+                        result += '<p class="score">' + data[i][1]['similarity'] + '</p>';
+                        result += '<a href="' + data[i][1]['web_url'] + '"><img src="' + data[i][1]['image_path'] + '"></a>';
+                        result += '</div>';
+                    }
+                    
+                    // Update the result div with the response
+                    $('#result').html(result);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

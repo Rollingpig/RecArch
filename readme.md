@@ -22,7 +22,7 @@ Put the dataset in the `database` directory. The dataset should be in the follow
 To start the Rec-Arch program with user interface, run the following command:
 
 ```bash
-python main.py
+python app.py
 ```
 
 If you want to use the program in terminal, you can use the following commands:

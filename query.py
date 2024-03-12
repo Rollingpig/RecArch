@@ -25,6 +25,16 @@ def query_from_database(query, database_folder_path):
     # iterate all projects in the database
     for project_name in final_db:
         folder_path = final_db[project_name]["folder_path"]
+        
+        # replace the "\\" in the path with "/"
+        folder_path = str(folder_path).replace("\\", "/")
+
+        # remove the first part of the folder path
+        # add database folder path to the folder path
+        # WARNING: it is a temporary fix for the path
+        # after the database is rebuilt, this line might be changed
+        folder_path = folder_path.split("/", 1)[1]
+        folder_path = Path(database_folder_path) / folder_path
 
         key_embedding = np.array(final_db[project_name]["key_embeddings"])
         content_embedding = np.array(final_db[project_name]["embeddings"])
@@ -83,7 +93,7 @@ def query_from_database(query, database_folder_path):
             "key": key,
             "subkey": subkey,
             "image_path": image_path,
-            "folder_path": folder_path,
+            "folder_path": str(folder_path),
             "web_url": web_url
         }
 
