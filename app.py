@@ -1,11 +1,12 @@
-from flask import Flask, request, jsonify, render_template, url_for
+from flask import Flask, request, render_template
 
-from query import query_handler
+from retrieval.query import query_handler
+from visualization.results_to_html import results_to_html_dict
 
 app = Flask(__name__)
 
 # Path to the database folder
-database_folder_path = "static/database"
+database_folder_path = "static/indexing"
 
 @app.route('/')
 def home():
@@ -17,30 +18,13 @@ def run_python():
     input_data = request.form['inputData']
 
     # Here you can call your Python function with input_data as the argument
-    # For demonstration, let's just echo back the input data with some modification
-    result = query_handler(input_data, database_folder_path)
-    
-    # for each element in the result, change its image path
-    for project_name in result:
-        project_dict = result[project_name]
-        if "image_path" not in project_dict:
-            continue
-        if project_dict["image_path"] is None:
-            continue
-        # replace the "\\" in the path with "/"
-        project_dict["image_path"] = project_dict["image_path"].replace("\\", "/")
-        # add the static folder to the path
-        result[project_name]["image_path"] = project_dict["image_path"]
-
-    # sort the dictionary by similarity into a list
-    result = sorted(result.items(), key=lambda item: item[1]["similarity"], reverse=True)
-    return result
+    results = query_handler(input_data, database_folder_path)
+    results_dict = results_to_html_dict(results)
+    return results_dict
 
 if __name__ == "__main__":
     # use browser to go to http://127.0.0.1:5000
-    import webbrowser
-    webbrowser.open('http://127.0.0.1:5000')
-    app.run(debug=True)
+    app.run(debug=False)
 
     
 

@@ -34,11 +34,13 @@
                     // and the "similarity" in the second subelement as p
                     // display the image in "image_path" with a href to "web_url"
                     var result = '';
+                    console.log(data);
                     for (var i = 0; i < data.length; i++) {
                         result += '<div class="case">';
-                        result += '<h2>' + data[i][0] + '</h2>';
-                        result += '<p class="score">' + data[i][1]['similarity'] + '</p>';
-                        result += '<a href="' + data[i][1]['web_url'] + '"><img src="' + data[i][1]['image_path'] + '"></a>';
+                        result += '<h2>' + data[i]['name']  + '</h2>';
+                        result += '<p class="score">' + data[i]['similarity'] + '</p>';
+                        result += '<a href="' + data[i]['web_url'] + '"><img src="' + data[i]['image_path'] + '"></a>';
+                        result += '<p class="entry">' + data[i]['entry'] + '</p>';
                         result += '</div>';
                     }
                     
