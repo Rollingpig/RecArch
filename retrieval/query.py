@@ -1,11 +1,12 @@
 from retrieval.dense_query import dense_query
 from retrieval.query_preprocess import query_preprocess
-from utils.app_types import CaseDatabase, DesignCase, RetrievalResult
+from utils.app_types import CaseDatabase, DesignCase, RetrievalResult, EnrichedQuery
 from pathlib import Path
 import pickle
 from collections import OrderedDict
 import logging
 from typing import List
+import numpy as np
 
 
 def load_database(database_folder_path: str) -> CaseDatabase:
@@ -25,6 +26,17 @@ def load_database(database_folder_path: str) -> CaseDatabase:
             logging.error(f"Error loading {pkl_file}: {e}")
     return CaseDatabase(database_cases)
 
+def fusion_query(database: CaseDatabase, 
+                query: EnrichedQuery,
+                random: bool = False,
+                **kwargs
+                ) -> List[RetrievalResult]:
+    if random:
+        result_list = [RetrievalResult(case_id, case.name, 0, case.web_link, [0], [case.content[0]], [case.content[0]]) for case_id, case in database.cases.items()]
+        np.random.shuffle(result_list)
+        return result_list
+    else:
+        return dense_query(database, query, **kwargs)
 
 def query_handler(query: str, database_folder_path: str) -> List[RetrievalResult]:
     """
@@ -37,7 +49,7 @@ def query_handler(query: str, database_folder_path: str) -> List[RetrievalResult
     database = load_database(database_folder_path)
 
     # query the database
-    retrieval_results = dense_query(database, enriched_query)
+    retrieval_results = fusion_query(database, enriched_query)
 
     # return the results
     return retrieval_results

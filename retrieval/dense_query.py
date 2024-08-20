@@ -6,6 +6,7 @@ from utils.llm import LLMHandler
 def dense_query(database: CaseDatabase, 
                 query: EnrichedQuery,
                 text_only: bool = False,
+                **kwargs
                 ) -> List[RetrievalResult]:
     """
     Query the database
