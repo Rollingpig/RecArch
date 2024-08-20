@@ -8,7 +8,7 @@ AssetCategory = Literal['text', 'facade', 'interior',
 @dataclass
 class BaseQuestion:
     theme: str
-    content: str
+    content: str = None
 
     def __hash__(self) -> int:
         return hash(self.content)
@@ -25,7 +25,7 @@ class AssetItem:
     case_id: int
     asset_path: str
     category: AssetCategory
-    answers: OrderedDict[BaseQuestion, str]
+    answers: OrderedDict[BaseQuestion, List[str]]
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -54,7 +54,10 @@ class DesignCase:
     folder_path: str
     web_link: str
     content: List[Union[AssetItem, RawTextItem]]
+
+    # generated during preprocessing
     embeddings: np.ndarray = None
+    all_texts: List[str] = None
     content_to_emb_idx: Dict[int, List[int]] = None
 
     def to_dict(self) -> Dict[str, Any]:
@@ -75,9 +78,10 @@ class DesignCase:
                 results.extend(item.chunked_content)
             else:
                 for q in item.answers:
-                    results.append(item.answers[q])
+                    results.extend(item.answers[q])
             indices[item_idx] = list(range(start_idx, len(results)))
         self.content_to_emb_idx = indices
+        self.all_texts = results
         return results
     
     def get_emb_mask(self, 
@@ -101,11 +105,7 @@ class DesignCase:
     def look_up_content(self, emb_idx) -> Tuple[Union[RawTextItem, AssetItem], str]:
         for item_idx, emb_indices in self.content_to_emb_idx.items():
             if emb_idx in emb_indices:
-                entry_idx = emb_idx - emb_indices[0]
-                if isinstance(self.content[item_idx], RawTextItem):
-                    return self.content[item_idx], self.content[item_idx].chunked_content[entry_idx]
-                else:
-                    return self.content[item_idx], list(self.content[item_idx].answers.values())[entry_idx]
+                return self.content[item_idx], self.all_texts[emb_idx]
         return None
 
     

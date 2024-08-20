@@ -6,19 +6,23 @@ from preprocess.asset_text_process import split_text
 
 
 text_questions = [
-    BaseQuestion("highlights", "What is the highlight of this design?"),
-    BaseQuestion("shape", "What form does it use? "),
-    BaseQuestion("spatial design", "What is the highlight of its shape and form? "),
-    BaseQuestion("material design", "What is the highlight in its spatial and material design?"),
-    BaseQuestion("keywords", "Summarize some keywords, split by comma"),
+    BaseQuestion("form"),
+    BaseQuestion("style"),
+    BaseQuestion("material usage"),
+    BaseQuestion("sense of feeling"),
+    BaseQuestion("relations to the surrounding context"),
+    BaseQuestion("passive design techniques"),
+    BaseQuestion("general design highlights"),
 ]
 
 image_questions = [
-    BaseQuestion("highlights", "What is the highlight of this design?"),
-    BaseQuestion("shape", "What form does it use? "),
-    BaseQuestion("spatial design", "What is the highlight of its shape and form? "),
-    BaseQuestion("material design", "What is the highlight in its spatial and material design?"),
-    BaseQuestion("keywords", "Summarize some keywords, split by comma"),
+    BaseQuestion("form"),
+    BaseQuestion("style"),
+    BaseQuestion("material usage"),
+    BaseQuestion("sense of feeling"),
+    BaseQuestion("relations to the surrounding context"),
+    BaseQuestion("passive design techniques"),
+    BaseQuestion("general design highlights"),
 ]
 
 def case_inquiry(case_id:int,

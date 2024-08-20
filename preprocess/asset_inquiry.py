@@ -8,16 +8,44 @@ from utils.llm import call_gpt_v, LLMHandler
 
 
 IMAGE_PROMPT = """
-You are a wonderful architectural designer. Based on the image, fill the following JSON questionaire about architecture design:
+you are a wonderful architecture critic. please describe the architectural design of this image in details. 
+
+# Guide
+- Cover the following aspects: 
+{aspect_list}
+- For each aspect, cover as many components as you can.
+- Write like an architecture critic. 
+- Your response should be in a structured json:
 ```json
-{questionaire}
+{
+  "analysis":{
+    "form": [
+        "<each sentence is a list item>",
+    ],
+    "<other aspects>": <return an empty list if not applicable>
+  }
+}
 ```
 """
 
 TEXT_PROMPT = """
-You are a wonderful architectural designer. Based on the text, fill the following JSON questionaire about architecture design. If not applicable, leave it empty.
+you are a wonderful architecture critic. Given the text input, please describe the architectural design in details. 
+
+# Guide
+- Cover the following aspects: 
+{aspect_list}
+- For each aspect, cover as many components as you can.
+- Write like an architecture critic. 
+- Your response should be in a structured json:
 ```json
-{questionaire}
+{
+  "analysis":{
+    "form": [
+        "<each sentence is a list item>",
+    ],
+    "<other aspects>": <return an empty list if not applicable>
+  }
+}
 ```
 
 Your text:
@@ -34,19 +62,27 @@ def image_inqury(image_path: str,
     questions.append(BaseQuestion("category", "Category of this image. Choose from: facade, interior, floorplan, section, detail, birdview, other"))
 
     # prepare the prompt
-    questionaire = {q.theme: q.content for q in questions}
-    prompt = IMAGE_PROMPT.format(questionaire=questionaire)
+    question_str_list = []
+    for q in questions:
+        if q.content is not None:
+            question_str_list.append(f"  - {q.theme}: {q.content}")
+        else:
+            question_str_list.append(f"  - {q.theme}")
+    questionaire = "\n".join(question_str_list)
+    prompt = IMAGE_PROMPT.replace("{aspect_list}", questionaire)
 
     # call the model
     response = call_gpt_v(image_path, prompt)
     json_text = re.findall(r'```json(.*)```', response, re.DOTALL)[-1]
-    json_dict = json.loads(json_text)
+    json_dict = json.loads(json_text)['analysis']
 
     # prepare the result
     answers = OrderedDict()
     for idx, item in enumerate(json_dict.items()):
         answers[questions[idx]] = item[1]
     category = json_dict["category"]
+    if isinstance(category, list):
+        category = category[0]
     return AssetItem(case_id, str(image_path), category, answers)
 
 
@@ -61,14 +97,21 @@ def text_inquiry(text_path: str,
         text = f.read()
 
     # prepare the prompt
-    questionaire = {q.theme: q.content for q in questions}
-    prompt = TEXT_PROMPT.format(questionaire=questionaire, content=text)
+    question_str_list = []
+    for q in questions:
+        if q.content is not None:
+            question_str_list.append(f"  - {q.theme}: {q.content}")
+        else:
+            question_str_list.append(f"  - {q.theme}")
+    questionaire = "\n".join(question_str_list)
+    prompt = TEXT_PROMPT.replace("{aspect_list}", questionaire)\
+        .replace("{content}", text)
 
     # call the model
     llm_handler = LLMHandler()
     response = llm_handler.chat_with_gpt(prompt)
     json_text = re.findall(r'```json(.*)```', response, re.DOTALL)[-1]
-    json_dict = json5.loads(json_text)
+    json_dict = json5.loads(json_text)["analysis"]
 
     # prepare the result
     answers = OrderedDict()

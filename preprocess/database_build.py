@@ -68,4 +68,4 @@ def build_database(source_folder_path: str,
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     build_database(r"D:\Code\RecArch\static\database", 
-                   r"D:\Code\RecArch\static\database2")
+                   r"D:\Code\RecArch\static\indexing")
