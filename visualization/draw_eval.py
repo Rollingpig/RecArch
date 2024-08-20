@@ -18,7 +18,7 @@ if __name__ == "__main__":
     result_random_file_path = "eval/results_random.csv"
 
     # set up a figure with two subplots
-    fig, axs = plt.subplots(1, 2, figsize=(7, 3))
+    fig, axs = plt.subplots(1, 2, figsize=(9, 3))
 
     recall_curve = recall(label_file_path, result_file_path)
     recall_text_only_curve = recall(label_file_path, result_text_only_file_path)

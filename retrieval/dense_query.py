@@ -1,4 +1,4 @@
-from utils.app_types import CaseDatabase, EnrichedQuery, RetrievalResult
+from utils.app_types import CaseDatabase, EnrichedQuery, RetrievalResult, RawTextItem
 from typing import List
 import numpy as np
 from utils.llm import LLMHandler
@@ -37,6 +37,12 @@ def dense_query(database: CaseDatabase,
         max_dot_product = np.max(dot_product)
         max_item_idx = np.argmax(dot_product)
         max_item, max_entry = case_item.look_up_content(max_item_idx)
+        if isinstance(max_item, RawTextItem) or ("txt" in str(max_item.asset_path)):
+            # use any image item for visualization
+            for item in case_item.content:
+                if "txt" not in str(item.asset_path):
+                    max_item = item
+                    break
         retrieval_results.append(
             RetrievalResult(case_item.case_id, case_item.name, max_dot_product, 
                             case_item.web_link,

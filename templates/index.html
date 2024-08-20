@@ -37,8 +37,10 @@
                     console.log(data);
                     for (var i = 0; i < data.length; i++) {
                         result += '<div class="case">';
-                        result += '<h2>' + data[i]['name']  + '</h2>';
-                        result += '<p class="score">' + data[i]['similarity'] + '</p>';
+                        result += '<div class="case-head">';
+                        result += '<span class="case-title">' + data[i]['name']  + '</span>';
+                        result += '<span class="score">' + data[i]['similarity'] + '</span>';
+                        result += '</div>';
                         result += '<a href="' + data[i]['web_url'] + '"><img src="' + data[i]['image_path'] + '"></a>';
                         result += '<p class="entry">' + data[i]['entry'] + '</p>';
                         result += '</div>';

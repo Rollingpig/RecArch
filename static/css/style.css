@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: rgb(232, 232, 232);
+    font-family: sans-serif;
 }
 
 .title {
@@ -56,7 +57,7 @@ body {
 .result{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 85%;
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -70,6 +71,22 @@ body {
     background-color: white;
     padding: 20px;
   
+}
+
+.result .case .case-head{
+    margin-bottom: 1em;
+}
+
+.result .case .case-title{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.result .case .score{
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    padding: 5px;
+    margin-left: 5px;
 }
 
 .result .case img {
