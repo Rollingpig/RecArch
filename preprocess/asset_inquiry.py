@@ -83,6 +83,7 @@ def image_inqury(image_path: str,
     category = json_dict["category"]
     if isinstance(category, list):
         category = category[0]
+    del json_dict["category"]
     return AssetItem(case_id, str(image_path), category, answers)
 
 

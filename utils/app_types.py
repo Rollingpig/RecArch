@@ -116,9 +116,21 @@ class CaseDatabase:
 
 @dataclass
 class EnrichedQuery:
-    raw: str
-    concentrate: List[Tuple[List[AssetCategory], List[str]]]
+    content: str
+    asset_filter: List[AssetCategory]
 
+@dataclass
+class QuerySet:
+    queries: List[EnrichedQuery]
+    weights: List[float]
+    image_path: str = None
+
+    @staticmethod
+    def from_dict(query_dict: Dict[str, Any]):
+        queries = [EnrichedQuery(q['content'], q['asset_filter']) for q in query_dict['queries']]
+        weights = query_dict['weights']
+        image_path = query_dict['image_path']
+        return QuerySet(queries, weights, image_path)
 
 @dataclass
 class RetrievalResult:
@@ -126,6 +138,5 @@ class RetrievalResult:
     name: str
     score: float
     url: str
-    score_by_concentrate: List[float]
-    max_entry_by_concentrate: List[str]
-    max_item_by_concentrate: List[Union[RawTextItem, AssetItem]]
+    max_entry: str
+    max_item: Union[RawTextItem, AssetItem]

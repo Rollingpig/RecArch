@@ -18,6 +18,15 @@
         <button id="runButton" class="search-btn">Find</button>
     </div>
     <!-- Element to display the result -->
+    <div class="query-info">
+        <div class="info-panel">
+            <div class="query-thumbail" id="query-thumbail"></div>
+            <div class="config-apply" id="config-apply"></div>
+        </div>
+        <div class="config-panel">
+            <div class="queryset" id="queryset"></div>
+        </div> 
+    </div>
     <div class="result" id="result"></div>
 
     <!-- JavaScript to handle button click and make AJAX request -->
@@ -27,13 +36,14 @@
                 // Get the value from the text field
                 var inputData = $('#inputField').val();
                 // Make the AJAX request to the Flask app
-                $.post('/run-python', {inputData: inputData}, function(data){
+                $.post('/run-python', {inputData: inputData}, function(resultData){
                     // data is a list
                     // We need to each element as a div
                     // in each div, we display the the first subelement as h1
                     // and the "similarity" in the second subelement as p
                     // display the image in "image_path" with a href to "web_url"
                     var result = '';
+                    data = resultData['result'];
                     console.log(data);
                     for (var i = 0; i < data.length; i++) {
                         result += '<div class="case">';
@@ -45,11 +55,60 @@
                         result += '<p class="entry">' + data[i]['entry'] + '</p>';
                         result += '</div>';
                     }
+                    // Update the result div with the response
+                    $('#result').html(result);
+
+                    var query_set = '';
+                    queries = resultData['query'];
+                    image_path = resultData['image_path'];
+                    if (image_path != null) {
+                        $('#query-thumbail').html('<img src="' + image_path + '">');
+                    }
+                    for (var i = 0; i < queries.length; i++) {
+                        query_set += '<div class="query">';
+                        query_set += '<p class="query-content">' + queries[i]['query'] + '</p>';
+                        // add a slider to adjust the weight
+                        query_set += '<input type="range" min="0" max="1" step="0.01" value="' + queries[i]['weight'] + '" class="slider" id="slider' + i + '">';
+                        query_set += '</div>';
+                    }
                     
+                    $('#queryset').html(query_set);
+
+                    // add a button to apply the adjusted weights
+                    btn_html = '<button id="applyButton" class="apply-btn">Apply the new weights</button>';
+                    $('#config-apply').html(btn_html);
+
+                });
+            });
+            
+            // apply the adjusted weights
+            $(document).on('click', '#applyButton', function(){
+                var weights = [];
+                for (var i = 0; i < $('.slider').length; i++) {
+                    weights.push($('#slider' + i).val());
+                }
+                // convert the weights to a string
+                weights = weights.join(',');
+                console.log(weights);
+                $.post('/apply-weights', {weights: weights}, function(resultData){
+                    var result = '';
+                    data = resultData['result'];
+                    console.log(data);
+                    for (var i = 0; i < data.length; i++) {
+                        result += '<div class="case">';
+                        result += '<div class="case-head">';
+                        result += '<span class="case-title">' + data[i]['name']  + '</span>';
+                        result += '<span class="score">' + data[i]['similarity'] + '</span>';
+                        result += '</div>';
+                        result += '<a href="' + data[i]['web_url'] + '"><img src="' + data[i]['image_path'] + '"></a>';
+                        result += '<p class="entry">' + data[i]['entry'] + '</p>';
+                        result += '</div>';
+                    }
                     // Update the result div with the response
                     $('#result').html(result);
                 });
             });
+        
         });
     </script>
 </body>
